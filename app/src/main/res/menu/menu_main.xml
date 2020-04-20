@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.microblog.activity.scan.ScanActivity">
+    <item
+        android:id="@+id/to_login_btn"
+        android:orderInCategory="100"
+        android:title="@string/to_login_btn"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/scan_btn"
+        android:orderInCategory="100"
+        android:title="@string/scan_btn"
+        app:showAsAction="never" />
+
+
+
+</menu>
