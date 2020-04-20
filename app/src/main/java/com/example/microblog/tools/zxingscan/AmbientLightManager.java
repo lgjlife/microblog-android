@@ -21,8 +21,10 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
-import com.dongdong.zxingscan.camera.CameraManager;
-import com.dongdong.zxingscan.camera.FrontLightMode;
+
+import com.example.microblog.tools.zxingscan.camera.CameraManager;
+import com.example.microblog.tools.zxingscan.camera.FrontLightMode;
+
 
 /**
  * Detects ambient light and switches on the front light when very dark, and off again when sufficiently light.

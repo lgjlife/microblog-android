@@ -17,9 +17,9 @@
 package com.example.microblog.tools.zxingscan;
 
 import com.example.microblog.R;
+import com.example.microblog.tools.zxingscan.camera.CameraManager;
 import com.google.zxing.DecodeHintType;
 import com.google.zxing.Result;
-import com.dongdong.zxingscan.camera.CameraManager;
 
 
 import android.app.Activity;
@@ -322,8 +322,8 @@ public abstract class CaptureActivity extends Activity implements SurfaceHolder.
     private void displayFrameworkBugMessageAndExit() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("提示");
-        builder.setMessage(getString(R.string.msg_camera_framework_bug));
-        builder.setPositiveButton(R.string.button_ok, new FinishListener(this));
+        builder.setMessage(getString(R.string.menu_share));
+        builder.setPositiveButton(R.string.menu_share, new FinishListener(this));
         builder.setOnCancelListener(new FinishListener(this));
         builder.show();
     }

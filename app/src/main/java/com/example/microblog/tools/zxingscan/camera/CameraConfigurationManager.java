@@ -24,8 +24,9 @@ import android.view.Display;
 import android.view.Surface;
 import android.view.WindowManager;
 
-import com.dongdong.zxingscan.camera.open.CameraFacing;
-import com.dongdong.zxingscan.camera.open.OpenCamera;
+
+import com.example.microblog.tools.zxingscan.camera.open.CameraFacing;
+import com.example.microblog.tools.zxingscan.camera.open.OpenCamera;
 import com.google.zxing.client.android.camera.CameraConfigurationUtils;
 
 /**

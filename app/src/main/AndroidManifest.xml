@@ -32,17 +32,27 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name="com.example.microblog.HomeActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
         </activity>
         <activity android:name="com.example.microblog.activity.scan.ScanActivity">
         </activity>
 
         <activity
-            android:name="com.example.microblog.ui.login.LoginActivity"
-            android:label="@string/title_activity_login" />
+            android:name="com.example.microblog.activity.login.LoginActivity"
+            android:label="@string/title_activity_login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--        -->
+        <activity
+            android:name="com.example.microblog.activity.register.RegisterActivity"
+            android:label="@string/title_activity_register">
+        </activity>
+
+
     </application>
 
 </manifest>

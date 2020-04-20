@@ -10,9 +10,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.dongdong.zxingscan.CaptureActivity;
-import com.dongdong.zxingscan.DecodeFormatManager;
+
 import com.example.microblog.R;
+import com.example.microblog.tools.zxingscan.CaptureActivity;
+import com.example.microblog.tools.zxingscan.DecodeFormatManager;
 import com.google.zxing.Result;
 
 public class ScanActivity extends CaptureActivity {
@@ -88,6 +89,7 @@ public class ScanActivity extends CaptureActivity {
             showDecodeIV.setImageBitmap(barcode);
             showDecodeIV.setVisibility(View.VISIBLE);
         }
+        //
     }
 
     @Override

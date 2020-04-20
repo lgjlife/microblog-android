@@ -23,6 +23,7 @@ import android.graphics.BitmapFactory;
 import android.provider.Browser;
 
 import com.example.microblog.R;
+import com.example.microblog.tools.zxingscan.camera.CameraManager;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.BinaryBitmap;
 import com.google.zxing.ChecksumException;
@@ -31,7 +32,6 @@ import com.google.zxing.FormatException;
 import com.google.zxing.NotFoundException;
 import com.google.zxing.RGBLuminanceSource;
 import com.google.zxing.Result;
-import com.dongdong.zxingscan.camera.CameraManager;
 import com.google.zxing.common.GlobalHistogramBinarizer;
 import com.google.zxing.qrcode.QRCodeReader;
 

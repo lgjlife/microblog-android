@@ -9,8 +9,9 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.microblog.activity.login.LoginActivity;
 import com.example.microblog.activity.scan.ScanActivity;
-import com.example.microblog.ui.login.LoginActivity;
+
 
 import static com.example.microblog.Permission.REQUEST_CODE_PRESSION_PHONE_STATE;
 
@@ -23,6 +24,8 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+        this.init();
     }
 
     @Override
@@ -66,4 +69,7 @@ public class HomeActivity extends AppCompatActivity {
         }
     }
 
+    private void init(){
+        //
+    }
 }

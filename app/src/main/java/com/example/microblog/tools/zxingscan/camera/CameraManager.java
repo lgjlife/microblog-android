@@ -24,9 +24,10 @@ import android.os.Handler;
 import android.util.Log;
 import android.view.SurfaceHolder;
 
+import com.example.microblog.tools.zxingscan.camera.open.OpenCamera;
+import com.example.microblog.tools.zxingscan.camera.open.OpenCameraInterface;
 import com.google.zxing.PlanarYUVLuminanceSource;
-import com.dongdong.zxingscan.camera.open.OpenCamera;
-import com.dongdong.zxingscan.camera.open.OpenCameraInterface;
+
 
 import java.io.IOException;
 
